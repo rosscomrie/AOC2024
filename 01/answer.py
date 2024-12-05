@@ -1,6 +1,6 @@
 import os
 
-with open(os.path.join(os.getcwd(),'01\\inputs\\input_list.txt')) as f:
+with open(os.path.join(os.getcwd(),'01\\inputs\\input.txt')) as f:
     text = f.read()
 
 lines = text.strip().split('\n')
